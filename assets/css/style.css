@@ -644,42 +644,6 @@ input:checked+.slider:before {
     bottom: 45%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .responsive_1 .slick-slide {
-    height: inherit !important;
-    display: flex !important;
-}
-
-.responsive_1 .slick-track {
-    display: flex !important;
-}
-
-.responsive_1 .slick-slide>div {
-    display: flex;
-} */
-
-
 /* preloader//////////////////////////////////// */
 .loading-overlay {
     position: fixed;
@@ -728,6 +692,11 @@ input:checked+.slider:before {
     .section-last-py {
         padding-bottom: 40px;
     }
+    .py-slider {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
 }
 
 @media (min-width:768px) {
