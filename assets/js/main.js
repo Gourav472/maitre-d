@@ -31,7 +31,7 @@ function topFunction() {
 }
 
         $('.responsive_1').slick({
-            dots: true,
+            dots: false,
             infinite: true,
             speed: 500,
             autoplay: false,

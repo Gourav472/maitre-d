@@ -584,6 +584,11 @@ input:checked+.slider:before {
     background: var(--orange);
     border-radius: 60px;
 }
+.blue-elipse{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
 
 
 
