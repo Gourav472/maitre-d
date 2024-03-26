@@ -10,7 +10,7 @@ function openNav() {
         let loadingOverlay = document.getElementById("loadingOverlay");
         loadingOverlay.style.display = "none";
         document.querySelector("body").classList.remove("overflow_hidden");
-      }, 3000);
+      }, );
     });
   });
 let mybutton = document.getElementById("myBtn");
@@ -36,8 +36,8 @@ function topFunction() {
             speed: 500,
             autoplay: false,
             arrows: true,
-            prevArrow: ".prev_pos2",
-            nextArrow: ".next_pos2",
+            prevArrow: ".prev_arrow_1",
+            nextArrow: ".next_arrow_1",
             slidesToShow: 1,
             slidesToScroll: 1,
 
@@ -70,7 +70,7 @@ function topFunction() {
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         arrows: false,
-                        autoplay: true
+                        autoplay: true,
                     }
                 },
                 {
@@ -79,7 +79,7 @@ function topFunction() {
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         arrows: false,
-                        autoplay: true
+                        autoplay: true,
                     }
                 }
 
