@@ -226,7 +226,7 @@
 }
 
 .sec-3-card1:hover svg path {
-    fill: url(#paint0_linear_34717_12224);
+    fill: var(--orange1);
 }
 
 .btn-sign {
