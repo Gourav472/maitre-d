@@ -1,0 +1,267 @@
+:root {
+    /* font-size / */
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-23: 23.83px;
+    --fs-24: 24px;
+    --fs-40: 40px;
+    --fs-48: 48px;
+    --fs-61: 61.17px;
+    /* / font-weight / */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    /* / line-height */
+    --line-16: 16.42px;
+    --line-18: 18.77px;
+    --line-19: 18.46px;
+    --line-21: 21.53px;
+    --line-24: 24.09px;
+    --line-25: 24.64px;
+    --line-26: 26.93px;
+    --line-27: 27.95px;
+    --line-28: 28.15px;
+    --line-30: 30.76px;
+    --line-36: 36.96px;
+    --line-23: 23.46px;
+    --line-46: 46.92px;
+    --line-56: 56.3px;
+    --line-71: 71.76px;
+    /* colors */
+    --grey: #E8E8E8;
+    --black5: #0000001A;
+    --black4: #00000040;
+    --black2: #0000000A;
+    --black3: #0000000F;
+    --black: #000000;
+    --white: #FFFFFF;
+    --orange1: #FD9B2B;
+    --orange2: #F14F09;
+    --orange: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    --orange_l: linear-gradient(96.64deg, #F14F09 13.58%, #FD9B2B 86.99%);
+    --brown: #FF586E47;
+    --linear2: linear-gradient(90deg, #F7608C 0%, #F8AC58 100%);
+    --linear3: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+
+
+
+}
+.black5{
+    color: var(--black5);
+}
+.black4{
+    color: var(--black4);
+}
+.linear3{
+    color: var(--linear3);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.black3 {
+    color: var(--black3);
+}
+
+.linear2 {
+    color: var(--linear2);
+}
+
+.black2 {
+    color: var(--black2);
+}
+
+.browm {
+    color: var(--brown);
+}
+
+.orange1 {
+    color: var(--orange1);
+}
+
+.orange1 {
+    color: var(--orange2);
+}
+
+.linear {
+    background: -webkit-linear-gradient(96.64deg, var(--orange1) 13.58%, var(--orange2) 86.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.orange {
+    background: var(--orange);
+}
+
+.line-16 {
+    line-height: var(--line-16);
+}
+
+.line-18 {
+    line-height: var(--line-18);
+}
+
+.line-19 {
+    line-height: var(--line-19);
+}
+
+.line-21 {
+    line-height: var(--line-21);
+}
+
+.line-26 {
+    line-height: var(--line-26);
+}
+
+.line-25 {
+    line-height: var(--line-25);
+}
+
+.line-24 {
+    line-height: var(--line-24);
+}
+
+.line-28 {
+    line-height: var(--line-28);
+}
+
+.line-27 {
+    line-height: var(--line-27);
+}
+
+.line-30 {
+    line-height: var(--line-30);
+}
+
+.line-36 {
+    line-height: var(--line-36);
+}
+
+.line-23 {
+    line-height: var(--line-23);
+}
+
+.line-46 {
+    line-height: var(--line-46);
+}
+
+.line-56 {
+    line-height: var(--line-56);
+}
+
+.line-71 {
+    line-height: var(--line-71);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-800 {
+    font-weight: var(--fw-800);
+}
+
+.fs-12 {
+    font-size: var(--fs-12);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-23 {
+    font-size: var(--fs-23);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-40 {
+    font-size: var(--fs-40);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-61 {
+    font-size: var(--fs-61);
+}
+
+@media (max-width:768px) {
+    :root {
+        /* font-size / */
+        --fs-12: 12px;
+        --fs-14: 14px;
+        --fs-16: 16px;
+        --fs-20: 20px;
+        --fs-23: 23.83px;
+        --fs-24: 24px;
+        --fs-40: 32px;
+        --fs-48: 48px;
+        --fs-61: 32px;
+        /* / font-weight / */
+        --fw-400: 400;
+        --fw-600: 600;
+        --fw-700: 700;
+        --fw-800: 800;
+        /* / line-height */
+        --line-16: 16.42px;
+        --line-18: 18.77px;
+        --line-19: 18.46px;
+        --line-21: 21.53px;
+        --line-24: 24.09px;
+        --line-25: 24.64px;
+        --line-26: 26.93px;
+        --line-27: 27.95px;
+        --line-28: 28.15px;
+        --line-30: 30.76px;
+        --line-36: 36.96px;
+        --line-23: 23.46px;
+        --line-46: 46.92px;
+        --line-56: 56.3px;
+        --line-71: 45px;
+        /* colors */
+        --black: #000000;
+        --white: #FFFFFF;
+        --orange1: #FD9B2B;
+        --orange2: #F14F09;
+        --orange: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+        --orange_l: linear-gradient(96.64deg, #F14F09 13.58%, #FD9B2B 86.99%);
+
+    }
+}
