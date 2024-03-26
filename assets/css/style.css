@@ -569,7 +569,21 @@ input:checked+.slider:before {
 #myBtn:hover{
     background: var(--orange_l) !important;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--orange);
+    border-radius: 60px;
+}
 
 
 
