@@ -548,7 +548,10 @@ input:checked+.slider:before {
     top:38%;
     right: 4%;
 }
-
+.max-w-svg{
+    max-width:18.71px;
+    max-height: 18.71px;
+}
 
 
 
@@ -585,31 +588,6 @@ input:checked+.slider:before {
 .responsive_1 .slick-slide>div {
     display: flex;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* preloader//////////////////////////////////// */
