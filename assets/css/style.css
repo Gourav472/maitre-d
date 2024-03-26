@@ -482,6 +482,7 @@ input:checked+.slider:before {
     max-width: 618px;
 
 }
+/* footer///////////////////////////////// */
 .footer_bg{
     background-image: url(../images/footer-2.png);
     background-repeat: no-repeat;
@@ -504,9 +505,14 @@ input:checked+.slider:before {
 }
 .footer-para{
     max-width: 375px;
+    padding-top: 15px;
 }
-
-
+.gap-51{
+    gap: 51px;
+}
+.pt-34{
+    padding-top: 34px;
+}
 
 
 
