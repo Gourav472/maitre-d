@@ -492,7 +492,7 @@ input:checked+.slider:before {
 .position-blue{
     position: absolute;
     top: 0%;
-    left: 15%;
+    left: 25%;
 }
 .section-last-py{
     padding-bottom: 147px;
@@ -646,6 +646,7 @@ input:checked+.slider:before {
         transform: translateY(0);
     }
 } */
+
 
 @media (max-width:768px) {
     .pt-227 {
