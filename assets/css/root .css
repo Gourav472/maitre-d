@@ -51,16 +51,20 @@
 
 
 }
-.grey-2{
+
+.grey-2 {
     color: var(--grey-2);
 }
-.black5{
+
+.black5 {
     color: var(--black5);
 }
-.black4{
+
+.black4 {
     color: var(--black4);
 }
-.linear3{
+
+.linear3 {
     color: var(--linear3);
 }
 

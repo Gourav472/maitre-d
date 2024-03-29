@@ -46,7 +46,7 @@
 .bg-sec-3 {
     background-image: url(../images/sec-3bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .max-760 {
@@ -576,6 +576,7 @@ input:checked+.slider:before {
 }
 
 #myBtn {
+    display: none;
     position: fixed;
     bottom: 10px;
     right: 30px;
@@ -662,6 +663,10 @@ input:checked+.slider:before {
     animation: fade-in-down 3s ease infinite;
 }
 
+.max-w-1000 {
+    max-width: 1000px;
+}
+
 @keyframes fade-in-down {
     0% {
         opacity: 0;
@@ -692,11 +697,20 @@ input:checked+.slider:before {
     .section-last-py {
         padding-bottom: 40px;
     }
+
     .py-slider {
         padding-top: 45px;
         padding-bottom: 45px;
     }
-    
+
+    .padding-box {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .max-540 {
+
+        padding: 15px 15px 15px 15px;
+    }
 }
 
 @media (min-width:768px) {
